@@ -1,0 +1,69 @@
+
+BASE DE DADOS 
+----------------------
+
+
+USER: 
+-----
+user_retratos
+pah4fiW7nEWA
+
+ENCOMENDAS
+---------------
+id_encomenda
+codigo
+nome
+morada
+codigo_postal
+localidade 
+tipo_retrato
+informacoes
+
+codigo_ctt
+estado
+
+
+chaves para uso local recapcha
+
+Chave do site: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI -- exemplo
+Chave secreta: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe -- exemplo 
+
+
+<!--
+
+    `id_encomenda` INT(11) NOT NULL AUTO_INCREMENT,
+	`codigo` INT(30) NULL DEFAULT NULL,
+	`nome` VARCHAR(50) NULL DEFAULT NULL,
+	`morada` VARCHAR(100) NULL DEFAULT NULL,
+	`codigo_postal` VARCHAR(10) NULL DEFAULT NULL,
+	`localidade` VARCHAR(50) NULL DEFAULT NULL,
+	`telefone` VARCHAR(20) NULL DEFAULT NULL,
+	`email` VARCHAR(50) NULL DEFAULT NULL,
+	`tipo_trabalho` VARCHAR(50) NULL DEFAULT NULL,
+	`informacoes` VARCHAR(250) NULL DEFAULT NULL,
+	`codigo_ctt` VARCHAR(20) NULL DEFAULT NULL,
+	`estado` INT(11) NULL DEFAULT NULL,
+	`atualizado_em` DATETIME NULL DEFAULT NULL,
+	`criada_em` DATETIME NULL DEFAULT NULL,
+	PRIMARY KEY (`id_encomenda`) 
+
+-->
+
+
+Estado da enco         menda 
+------------------------
+
+0 - encomenda em validação 
+1 - validada a aguardar execução
+2 - em execução 
+3 - concluído
+4 - enviado por correio 
+5 - terminado 
+6 - cancelado 
+
+// depois configurar os detalhes de envio de emailfaltou esta parte 
+
+//<a href="<?php echo site_url('encomendas/testar_email') ?>">Enviar Email de teste </a>
+
+
+https://datatables.net/

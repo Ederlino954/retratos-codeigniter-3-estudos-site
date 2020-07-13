@@ -1,0 +1,2 @@
+-- DELETE FROM encomendas 
+-- ALTER table encomendas AUTO_INCREMENT = 1

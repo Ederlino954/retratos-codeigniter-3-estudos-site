@@ -1,0 +1,1 @@
+INSERT INTO admin VALUES('joao@teste.pt', MD5('aaa'))

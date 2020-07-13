@@ -1,0 +1,1 @@
+INSERT INTO stock_apps(app_key) VALUES('A5S0kcEw01gXTiIQ81s4ftLY4C07LmSV')

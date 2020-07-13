@@ -1,0 +1,87 @@
+/*  styles.css  */
+
+/* *{
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15);
+    box-shadow: inset 0px 0px 0px 1px rgba(255,0,0,0.15);
+} */
+
+
+.modal-condicoes{
+    height: 400px;
+    overflow: scroll;
+}
+
+/* links de navegação */
+.link_nav{
+    text-decoration: none;
+    color: rgb(150,150,150);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link_nav:hover{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    text-decoration: underline;
+}
+
+.link_nav_pessoal{
+    text-decoration: none;
+    color: rgb(201, 73, 84);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link_nav_pessoal:hover{
+    text-decoration: none;
+    color: rgb(148, 26, 36);
+    text-decoration: underline;
+}
+
+.texto-um{
+    font-size: 2em;
+    color: gray;
+}
+
+.texto-dois{
+    font-size: 1.5em;
+    color: gray;
+}
+
+.btn-size-200{
+    width: 200px !important;
+}
+
+.btn-size-150{
+    width: 150px !important;
+}
+
+hr{
+    border: 1px solid gray;
+}
+/*
+.link-redes-sociais{
+    opacity: .5;
+    transition: opacity 1s;
+}
+
+.link-redes-sociais:hover{
+    opacity: 1;
+}
+*/
+
+.sumario-trabalho{
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgb(100,100,100);
+}
+
+.preco-trabalho{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.preco-envio{
+    font-size: 1.2em;
+}

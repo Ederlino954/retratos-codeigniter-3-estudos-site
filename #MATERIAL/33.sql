@@ -1,0 +1,1 @@
+DELETE FROM stock_produtos; ALTER TABLE stock_produtos AUTO_INCREMENT = 1
